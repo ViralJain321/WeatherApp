@@ -1,0 +1,63 @@
+
+body {
+  background-color: #fff;
+  
+}
+
+section{
+  max-width: 50 rem;
+
+}
+
+span{
+  position: absolute;
+  right: 50px;
+}
+
+
+img{
+  width: 14%;
+}
+
+
+.card-text{
+  display: inline-block;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.weather-description{
+  font-weight: bolder;
+  font-size: xx-large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.degree:after {
+  position: absolute;
+  font-size: 3rem;
+  margin-top: 0.4rem;
+  font-weight: 400;
+}
+
+.top-container{
+  margin: 80px auto;
+  max-width: 50rem;
+  text-align: center;
+
+}
+
+
+.weather-details{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  column-count: 5;
+  column-width: 40px;
+  column-span: 1;
+  text-align: center;
+}
+
+#form1{
+  /* width: 60%; */
+  margin: 20;
+}

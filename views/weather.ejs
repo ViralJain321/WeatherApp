@@ -1,0 +1,37 @@
+<%- include("header") -%>
+
+<div class="container">
+  <section class="mx-auto my-5">
+    <div class="card hover-shadow">
+      <div class="card-body">
+        <h5 class="card-title font-weight-bold"><%= CityName %></h5>
+        <p class="card-text">
+          <%= currentDate %> 
+        </p>
+        <span class="weather-description"> <%= weatherDescription%> </span>
+        <div class="d-flex justify-content-between">
+          <p class="display-1 degree"><%= temperature %>°C</p>
+          <img src="<%= imageURL %>" />
+        </div>
+        <div class="weather-details">
+         <p>Humidity </p> 
+         <p> <%= humidity %> %</p>
+
+         <p> Visibility</p>
+         <p><%= visibility %> km </p>
+
+          <p> Pressure </p>
+          <p><%=pressure %> hPa </p>
+
+         <p> WindSpeed </p>
+         <p><%= windSpeed %> m/s</p>
+
+          <p> WindDirection</p>
+          <p> <%=windDirection %></p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<%- include("footer") -%>
