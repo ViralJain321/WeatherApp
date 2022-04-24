@@ -27,12 +27,10 @@ app.route("/")
 
 
         https.get(url, function (response) {
-            console.log(response.statusCode);
-
+           
 
             response.on("data", function (data) {
                 const weatherData = JSON.parse(data);
-                console.log(weatherData);
 
                 const CityName = weatherData.name;
 
